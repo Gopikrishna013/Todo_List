@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="/to_dolist/style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <div class="header">
+                <h1>My To Do list</h1>
+                <form id="searchform">
+                    <input type="text" id="searchInput" placeholder="search my daily Routine">
+                    <div class="suggestions" id="suggestions"></div>
+                </form>
+            </div>
+        </header>
+
+
+        
+
+
+        <div>
+            <form id="addform">
+                <input type="checkbox" id="hide">
+                <label for="hide" >Hide the list</label>
+                <input type="text" placeholder="add">
+                <button id="btn">Add</button>
+            </form>
+        </div>
+
+        
+        <div class="section">
+            <h3>My list</h3>
+            <ul class="mylists">
+                <li>
+                    <span class="name">Eating</span>
+                    <span class="delete">Delete</span>
+                </li>
+
+                <li>
+                    <span class="name">Coding</span>
+                    <span class="delete">Delete</span>
+
+                </li>
+
+                <li>
+                    <span class="name">Dancing</span>
+                    <span class="delete">Delete</span>
+
+                </li>
+            </ul>
+        </div>
+
+  
+    </div>
+
+    <script src="/to_dolist/script.js"></script>
+</body>
+</html>
